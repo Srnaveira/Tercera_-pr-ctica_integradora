@@ -1,0 +1,295 @@
+[2024-08-19T20:52:47.488Z] info: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:52:47.488Z] error: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:52:47.488Z] warning: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:52:47.488Z] fatal: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:52:47.551Z] info: GET en /login - 19/8/2024
+[2024-08-19T20:52:47.551Z] error: GET en /login - 19/8/2024
+[2024-08-19T20:52:47.551Z] warning: GET en /login - 19/8/2024
+[2024-08-19T20:52:47.551Z] fatal: GET en /login - 19/8/2024
+[2024-08-19T20:52:51.929Z] info: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:52:51.929Z] error: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:52:51.929Z] warning: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:52:51.929Z] fatal: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:52:52.105Z] info: serializeUser{
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0
+}
+[2024-08-19T20:52:52.299Z] info: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:52:52.299Z] error: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:52:52.299Z] warning: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:52:52.299Z] fatal: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:53:53.354Z] info: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:53:53.354Z] error: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:53:53.354Z] warning: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:53:53.354Z] fatal: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:53:53.354Z] info: Conectado al UserServices.js para traer la lista de usuarios...
+[2024-08-19T20:53:53.354Z] info: DENTRO DE LA FUNCION QUE TRAE UN LISTADO COMPLETO DE LOS USUARIOS
+[2024-08-19T20:53:53.412Z] info: Lista de usuarios[
+  {
+    "_id": "665c998e058b01ffb59cc91a",
+    "first_name": "Administrator",
+    "last_name": "admin",
+    "email": "admincoder@coder.com",
+    "age": 0,
+    "password": "$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK",
+    "rol": "admin",
+    "__v": 0
+  },
+  {
+    "_id": "6670e7ef128a8297fc5d52c0",
+    "first_name": "Sebastian",
+    "last_name": "Naveira",
+    "email": "srnaveira@gmail.com",
+    "age": 45,
+    "password": "$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO",
+    "rol": "user",
+    "cartId": "6670e7ef128a8297fc5d52be",
+    "__v": 0
+  },
+  {
+    "_id": "66786d6331e5dae2133d3832",
+    "first_name": "ruben",
+    "last_name": "gianelli",
+    "email": "rubengianelli@mail.com",
+    "age": 24,
+    "password": "$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi",
+    "rol": "user",
+    "cartId": "66786d6331e5dae2133d3830",
+    "__v": 0
+  },
+  {
+    "_id": "66c228bc3fe6c728e50c6fcc",
+    "first_name": "Armando",
+    "last_name": "Maradona",
+    "email": "armandoMaradona@coderHouse.com",
+    "age": 25,
+    "password": "$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty",
+    "rol": "premium",
+    "cartId": "66c228bc3fe6c728e50c6fca",
+    "__v": 0
+  },
+  {
+    "_id": "66c22f1048af4a7cbfc2fc7e",
+    "first_name": "Leonel",
+    "last_name": "Messi",
+    "email": "leoMessi@coder.com",
+    "age": 36,
+    "password": "$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.",
+    "rol": "user",
+    "cartId": "66c22f0f48af4a7cbfc2fc7c",
+    "__v": 0
+  }
+]
+[2024-08-19T20:53:53.412Z] info: ESTOY DENTRO DEL USERSCONTROLLER PARA TRAER LA LISTA DE USUARIOS
+[2024-08-19T20:53:53.413Z] info: Contenido de la lista de usuarios: {
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0
+},{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 0
+},{
+  _id: new ObjectId('66786d6331e5dae2133d3832'),
+  first_name: 'ruben',
+  last_name: 'gianelli',
+  email: 'rubengianelli@mail.com',
+  age: 24,
+  password: '$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi',
+  rol: 'user',
+  cartId: new ObjectId('66786d6331e5dae2133d3830'),
+  __v: 0
+},{
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'premium',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0
+},{
+  _id: new ObjectId('66c22f1048af4a7cbfc2fc7e'),
+  first_name: 'Leonel',
+  last_name: 'Messi',
+  email: 'leoMessi@coder.com',
+  age: 36,
+  password: '$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.',
+  rol: 'user',
+  cartId: new ObjectId('66c22f0f48af4a7cbfc2fc7c'),
+  __v: 0
+}
+[2024-08-19T20:54:52.954Z] info: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:54:52.954Z] error: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:54:52.954Z] warning: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:54:52.954Z] fatal: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:54:52.955Z] error: Error en POST /api/admin/premium/6670e7ef128a8297fc5d52c0 - Cannot read properties of undefined (reading 'rol')
+[2024-08-19T20:54:59.505Z] info: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:54:59.506Z] error: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:54:59.506Z] warning: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:54:59.506Z] fatal: POST en /api/sessions/logout - 19/8/2024
+[2024-08-19T20:54:59.571Z] info: GET en /login - 19/8/2024
+[2024-08-19T20:54:59.572Z] error: GET en /login - 19/8/2024
+[2024-08-19T20:54:59.572Z] warning: GET en /login - 19/8/2024
+[2024-08-19T20:54:59.572Z] fatal: GET en /login - 19/8/2024
+[2024-08-19T20:55:00.514Z] info: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:55:00.514Z] error: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:55:00.514Z] warning: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:55:00.514Z] fatal: POST en /api/sessions/login - 19/8/2024
+[2024-08-19T20:55:00.691Z] info: serializeUser{
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0
+}
+[2024-08-19T20:55:00.878Z] info: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:55:00.879Z] error: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:55:00.879Z] warning: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:55:00.879Z] fatal: GET en /api/admin/realtimeproducts - 19/8/2024
+[2024-08-19T20:55:03.422Z] info: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:55:03.422Z] error: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:55:03.422Z] warning: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:55:03.422Z] fatal: GET en /api/admin/premium? - 19/8/2024
+[2024-08-19T20:55:03.423Z] info: Conectado al UserServices.js para traer la lista de usuarios...
+[2024-08-19T20:55:03.423Z] info: DENTRO DE LA FUNCION QUE TRAE UN LISTADO COMPLETO DE LOS USUARIOS
+[2024-08-19T20:55:03.483Z] info: Lista de usuarios[
+  {
+    "_id": "665c998e058b01ffb59cc91a",
+    "first_name": "Administrator",
+    "last_name": "admin",
+    "email": "admincoder@coder.com",
+    "age": 0,
+    "password": "$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK",
+    "rol": "admin",
+    "__v": 0
+  },
+  {
+    "_id": "6670e7ef128a8297fc5d52c0",
+    "first_name": "Sebastian",
+    "last_name": "Naveira",
+    "email": "srnaveira@gmail.com",
+    "age": 45,
+    "password": "$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO",
+    "rol": "user",
+    "cartId": "6670e7ef128a8297fc5d52be",
+    "__v": 0
+  },
+  {
+    "_id": "66786d6331e5dae2133d3832",
+    "first_name": "ruben",
+    "last_name": "gianelli",
+    "email": "rubengianelli@mail.com",
+    "age": 24,
+    "password": "$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi",
+    "rol": "user",
+    "cartId": "66786d6331e5dae2133d3830",
+    "__v": 0
+  },
+  {
+    "_id": "66c228bc3fe6c728e50c6fcc",
+    "first_name": "Armando",
+    "last_name": "Maradona",
+    "email": "armandoMaradona@coderHouse.com",
+    "age": 25,
+    "password": "$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty",
+    "rol": "premium",
+    "cartId": "66c228bc3fe6c728e50c6fca",
+    "__v": 0
+  },
+  {
+    "_id": "66c22f1048af4a7cbfc2fc7e",
+    "first_name": "Leonel",
+    "last_name": "Messi",
+    "email": "leoMessi@coder.com",
+    "age": 36,
+    "password": "$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.",
+    "rol": "user",
+    "cartId": "66c22f0f48af4a7cbfc2fc7c",
+    "__v": 0
+  }
+]
+[2024-08-19T20:55:03.483Z] info: ESTOY DENTRO DEL USERSCONTROLLER PARA TRAER LA LISTA DE USUARIOS
+[2024-08-19T20:55:03.484Z] info: Contenido de la lista de usuarios: {
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0
+},{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 0
+},{
+  _id: new ObjectId('66786d6331e5dae2133d3832'),
+  first_name: 'ruben',
+  last_name: 'gianelli',
+  email: 'rubengianelli@mail.com',
+  age: 24,
+  password: '$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi',
+  rol: 'user',
+  cartId: new ObjectId('66786d6331e5dae2133d3830'),
+  __v: 0
+},{
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'premium',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0
+},{
+  _id: new ObjectId('66c22f1048af4a7cbfc2fc7e'),
+  first_name: 'Leonel',
+  last_name: 'Messi',
+  email: 'leoMessi@coder.com',
+  age: 36,
+  password: '$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.',
+  rol: 'user',
+  cartId: new ObjectId('66c22f0f48af4a7cbfc2fc7c'),
+  __v: 0
+}
+[2024-08-19T20:55:07.330Z] info: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:55:07.330Z] error: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:55:07.330Z] warning: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:55:07.330Z] fatal: POST en /api/admin/premium/6670e7ef128a8297fc5d52c0 - 19/8/2024
+[2024-08-19T20:55:07.331Z] info: UID: 6670e7ef128a8297fc5d52c0, newRole: premium
+[2024-08-19T20:55:07.331Z] info: Actualizando el rol del usuario con ID 6670e7ef128a8297fc5d52c0 a premium
+[2024-08-19T20:55:07.331Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE EN LA BASE DE DATOS PARA CAMBIAR EL ROLL
+[2024-08-19T20:55:07.331Z] info: _id: 6670e7ef128a8297fc5d52c0
+[2024-08-19T20:55:07.331Z] info: Rol Usuario: premium
+[2024-08-19T20:55:07.399Z] info: Resultado de la actualización:
+[2024-08-19T20:55:07.399Z] info: Se cambió la roll para el usuario: 6670e7ef128a8297fc5d52c0
+[2024-08-19T20:55:07.399Z] info: Rol actualizado correctamente para el usuario con ID 6670e7ef128a8297fc5d52c0 a premium
